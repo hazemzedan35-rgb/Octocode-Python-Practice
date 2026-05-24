@@ -8,4 +8,4 @@ def hello(to):
     print ("hi, ", to)
 hello(first)
 bbb = " moamen    "
-print(bbb.strip)
+print(bbb.strip())
