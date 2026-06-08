@@ -1,3 +1,5 @@
+#A simple Python CLI tool that helps students with study habits, English practice, and programming based on CS50P
+
 x = input ("""What do you need help with?
 1. Study
 2. English
