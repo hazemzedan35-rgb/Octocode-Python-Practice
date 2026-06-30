@@ -2,7 +2,7 @@ import os
 from google import genai
 from google.genai import types
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyD1cuDC6Y93TBqufaT2hQ8uqSLb6R8Z23I"
+os.environ["GEMINI_API_KEY"] = "xxxxxxxxxxxx"
 client = genai.Client()
 
 arthur_behavior = (
