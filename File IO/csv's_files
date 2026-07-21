@@ -6,9 +6,11 @@ with open("food.csv", "r") as file:
         student = {"name": name, "house": house}
         
         students.append(student)
-
+# function to sort dictionaries
 def get_name(student):
     return student['name']
 
 for student in sorted(students, key=get_name):
     print(f"{student['name'] } lives in {student['house']}") 
+
+
