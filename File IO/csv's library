@@ -1,0 +1,8 @@
+import csv
+
+name = input("whats your name? ")
+home = input("where is ur home? ")
+
+with open("food.csv", "a") as f:
+    writer = csv.DictWriter(f, fieldnames=["name", "home"])
+    writer.writerow({"name": name, "home": home}) 
